@@ -12,8 +12,6 @@ for i in range(0,100):
     total   = list(total)
     random.shuffle(total)
     my_list.append(total)
-    #''.join(random.sample(total,len(total)))
-    #print("".join(total))
     print(i+1,".","".join(total))
 
 longest_string = max(my_list, key=len)
