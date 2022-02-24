@@ -1,12 +1,7 @@
 # Secure Password Generator
-from faulthandler import disable
 import random as r
 import string as st
 import tkinter as tk
-from subprocess import check_call
-
-from click import command
-
 
 lower   = st.ascii_lowercase  # The lowercase letters list
 upper   = st.ascii_uppercase  # The uppercase letters list
