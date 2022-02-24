@@ -1,4 +1,3 @@
-from turtle import color
 import requests
 import random
 from colorama import Fore
